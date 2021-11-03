@@ -29,6 +29,26 @@
     </section>
     <p><a href="https://github.com/jaspercs/intro-to-programming-star/tree/main">My GitHub</a></p>
     <p><img src="https://scontent.fybz2-1.fna.fbcdn.net/v/t1.18169-9/13095842_610295505795967_6305512104159933860_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=973b4a&_nc_ohc=BIdTBVodWK4AX8j5Rrv&_nc_ht=scontent.fybz2-1.fna&oh=9085ec178cce774270624e3124099651&oe=619678D0" alt="Aiplane Game"></p>
+    <section>
+      <h2>Leave a Message</h2>
+      <form name="leave_message">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="mail">Email</label><br>
+        <input type="email" id="mail" name="email" required><br>
+
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" required></textarea><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+    <section id="messages">
+      <h2>Messages</h2>
+      <ul id="listMessages">
+      </ul>
+    </section>
     <footer></footer>
     <script src="js/index.js"></script>
   </body>
