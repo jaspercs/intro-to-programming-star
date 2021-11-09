@@ -1,0 +1,72 @@
+@media screen and (min-width: 600px) {
+  body {
+    background-color: whitesmoke;
+    color: tomato;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 0 auto; /* All contents in body are centralized. */
+  }
+
+  section {
+    margin: 2px 0;
+    padding: 2px 0;
+  }
+
+  h1,
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 100px;
+    color: turquoise;
+    margin: 12px 0;
+  }
+
+  #experience {
+    margin: 2px;
+    padding: 2px;
+    list-style-type: none;
+  }
+
+  #skills li {
+    margin-left: 4px;
+    padding-left: 4px;
+    border-style: inset;
+    border-radius: 5px;
+    list-style: none;
+    display: inline-block;
+    margin: 10 px 10px;
+  }
+
+  label {
+    font-size: 1.2rem;
+    color: #5e37b3;
+  }
+
+  input,
+  textarea {
+    font-size: 0.9rem;
+    padding: 8px;
+    border-radius: 6px;
+    border-style: dashed;
+    margin-bottom: 12px;
+  }
+
+  #submit {
+    padding: 4px;
+    background-color: olivedrab;
+    border: peru;
+    border-style: double;
+    border-radius: 10px;
+  }
+
+  #listMessages {
+    color: aqua;
+    list-style-type: disc;
+  }
+
+  footer {
+    width: 100%;
+    text-align: center;
+    line-height: 15px;
+    background-color: skyblue;
+  }
+}
