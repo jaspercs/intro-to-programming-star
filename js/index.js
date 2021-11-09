@@ -6,7 +6,7 @@ const footer = document.querySelector("footer");
 
 const copyright = document.createElement("p");
 
-copyright.innerHTML = "Jasper Wei @ " + thisYear;
+copyright.innerHTML = `&#169 Jasper Wei ${thisYear}`;
 
 footer.appendChild(copyright);
 
@@ -34,9 +34,9 @@ const messageForm = document.getElementsByName("leave_message")[0];
 
 messageForm.addEventListener("submit", (e) => {
   e.preventDefault();
-  const fName = document.getElementById("name").value;
-  const email = document.getElementById("mail").value;
-  const message = document.getElementById("message").value;
+  const fName = e.target.name.value;
+  const email = e.target.email.value;
+  const message = e.target.message.value;
   //console.log(fName, email, message);
 
   const messageSection = document.querySelector("#messages");
